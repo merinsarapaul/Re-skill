@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 /**
  * 
@@ -20,12 +22,16 @@ public class DriverFactory {
 	public static WebDriver getDriver(String driverName){
 
 		if(driverName.equals(DriverNames.CHROME)){
-			System.setProperty(Driver.CHROME, Driver.CHROME_PATH);
-			driver = new ChromeDriver();
+			/*System.setProperty(Driver.CHROME, Driver.CHROME_PATH);*/
+			WebDriverManager.chromedriver().clearPreferences();
+			WebDriverManager.chromedriver().setup();
+			driver= new ChromeDriver();
 		
 			
 		}else if(driverName.equals(DriverNames.FIREFOX)){
-			System.setProperty(Driver.FIREFOX, Driver.FIREFOX_PATH);
+			/*System.setProperty(Driver.FIREFOX, Driver.FIREFOX_PATH);*/
+			WebDriverManager.firefoxdriver().clearPreferences();
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			
 		}else if(driverName.equals("IE")){
