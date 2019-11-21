@@ -6,8 +6,8 @@
       <class name="retailtestcase.EasyLevel">
         <methods>
           <include name="LaunchURL"/>
+          <include name="RTTC_008"/>
           <include name="setUpBeforeClass"/>
-          <include name="RTTC_009"/>
         </methods>
       </class> <!-- retailtestcase.EasyLevel -->
     </classes>
