@@ -135,7 +135,6 @@ private WebDriver driver;
 		temp.add("Model (A - Z)");
 		temp.add("Model (Z - A)");
 		Assert.assertEquals(actuallist, temp);
-		
 		}
 	
 	public void Alpha() {
@@ -159,6 +158,4 @@ private WebDriver driver;
 		WebElement slct =driver.findElement(By.xpath("//option[text()='Rating (Highest)']"));
 		slct.click();
 }
-	
-	
 }

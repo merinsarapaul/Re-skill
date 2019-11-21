@@ -23,7 +23,6 @@ public class EasyLevel
 	 LoginPage loginPage;
 	 Search search;
 	 private static Properties properties;
-	//private ScreenShot screenShot;
 	 String email, pwd;
 	
 	@BeforeClass
