@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89786" started-at="2019-11-20T16:18:58 IST" finished-at="2019-11-20T16:20:28 IST">
+  <suite name="Default suite" duration-ms="351201" started-at="2019-11-21T09:41:43 IST" finished-at="2019-11-21T09:47:34 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89786" started-at="2019-11-20T16:18:58 IST" finished-at="2019-11-20T16:20:28 IST">
-      <class name="retailtestcase.TC001">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:retailtestcase.TC001@a7e666]" name="setUpBeforeClass" is-config="true" duration-ms="58" started-at="2019-11-20T16:18:58 IST" finished-at="2019-11-20T16:18:59 IST">
+    <test name="Default test" duration-ms="351201" started-at="2019-11-21T09:41:43 IST" finished-at="2019-11-21T09:47:34 IST">
+      <class name="retailtestcase.EasyLevel">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:retailtestcase.EasyLevel@68bbe345]" name="setUpBeforeClass" is-config="true" duration-ms="47" started-at="2019-11-21T09:41:43 IST" finished-at="2019-11-21T09:41:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:retailtestcase.TC001@a7e666]" name="LaunchURL" is-config="true" duration-ms="55744" started-at="2019-11-20T16:18:59 IST" finished-at="2019-11-20T16:19:54 IST">
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:retailtestcase.EasyLevel@68bbe345]" name="LaunchURL" is-config="true" duration-ms="64429" started-at="2019-11-21T09:41:43 IST" finished-at="2019-11-21T09:42:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="RTTC_007()[pri:1, instance:retailtestcase.TC001@a7e666]" name="RTTC_007" duration-ms="33829" started-at="2019-11-20T16:19:54 IST" finished-at="2019-11-20T16:20:28 IST">
+        <test-method status="PASS" signature="RTTC_007()[pri:1, instance:retailtestcase.EasyLevel@68bbe345]" name="RTTC_007" duration-ms="38630" started-at="2019-11-21T09:42:48 IST" finished-at="2019-11-21T09:43:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RTTC_007 -->
-      </class> <!-- retailtestcase.TC001 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:retailtestcase.EasyLevel@68bbe345]" name="closeBrowser" is-config="true" duration-ms="6992" started-at="2019-11-21T09:43:26 IST" finished-at="2019-11-21T09:43:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:retailtestcase.EasyLevel@68bbe345]" name="LaunchURL" is-config="true" duration-ms="63044" started-at="2019-11-21T09:43:33 IST" finished-at="2019-11-21T09:44:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method status="PASS" signature="RTTC_008()[pri:2, instance:retailtestcase.EasyLevel@68bbe345]" name="RTTC_008" duration-ms="56416" started-at="2019-11-21T09:44:36 IST" finished-at="2019-11-21T09:45:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTTC_008 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:retailtestcase.EasyLevel@68bbe345]" name="closeBrowser" is-config="true" duration-ms="6425" started-at="2019-11-21T09:45:33 IST" finished-at="2019-11-21T09:45:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:retailtestcase.EasyLevel@68bbe345]" name="LaunchURL" is-config="true" duration-ms="55850" started-at="2019-11-21T09:45:39 IST" finished-at="2019-11-21T09:46:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method status="PASS" signature="RTTC_009()[pri:3, instance:retailtestcase.EasyLevel@68bbe345]" name="RTTC_009" duration-ms="53174" started-at="2019-11-21T09:46:35 IST" finished-at="2019-11-21T09:47:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTTC_009 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:retailtestcase.EasyLevel@68bbe345]" name="closeBrowser" is-config="true" duration-ms="6072" started-at="2019-11-21T09:47:28 IST" finished-at="2019-11-21T09:47:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- retailtestcase.EasyLevel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

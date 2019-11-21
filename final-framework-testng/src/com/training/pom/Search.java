@@ -91,9 +91,10 @@ private WebDriver driver;
 		this.addCart.click();
 	}
 	
-	public void ShopCart() {
+	public void ShopCart() throws InterruptedException {
 		Assert.assertEquals(shoppingCart.getText(),message);
 		System.out.println(shoppingCart.getText());
+		Thread.sleep(6000);
 		
 	}
 	public void DropDown() {

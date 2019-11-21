@@ -15,7 +15,7 @@ import com.training.pom.Search;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
-public class TC001 
+public class EasyLevel 
 {
 	 String baseUrl;
 	 WebDriver driver;
@@ -96,3 +96,4 @@ public class TC001
 	}
 		
 }
+

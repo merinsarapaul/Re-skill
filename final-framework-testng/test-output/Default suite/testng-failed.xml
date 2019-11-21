@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="retailtestcase.TC001">
+      <class name="retailtestcase.EasyLevel">
         <methods>
           <include name="LaunchURL"/>
-          <include name="RTTC_007"/>
           <include name="setUpBeforeClass"/>
+          <include name="RTTC_009"/>
         </methods>
-      </class> <!-- retailtestcase.TC001 -->
+      </class> <!-- retailtestcase.EasyLevel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
