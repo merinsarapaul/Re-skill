@@ -9,11 +9,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-//import com.training.pom.LoginPOM;
-//import com.training.pom.LoginPage;
 import com.training.pom.RetailLogin;
-//import com.training.pom.Search;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 

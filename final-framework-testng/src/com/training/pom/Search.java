@@ -68,6 +68,7 @@ private WebDriver driver;
 	@FindBy(xpath="(//select[@onchange='location = this.value;'])[2]")
 	private WebElement sortName;
 	
+	
 	public void clickSearch()
 	{	
 		Actions action = new Actions(driver);
@@ -135,9 +136,6 @@ private WebDriver driver;
 		temp.add("Model (Z - A)");
 		Assert.assertEquals(actuallist, temp);
 		
-		this.sortName.click();
-		WebElement slct =driver.findElement(By.xpath("//option[text()='Rating (Highest)']"));
-		slct.click();
 		}
 	
 	public void Alpha() {
@@ -161,4 +159,6 @@ private WebDriver driver;
 		WebElement slct =driver.findElement(By.xpath("//option[text()='Rating (Highest)']"));
 		slct.click();
 }
+	
+	
 }
